@@ -16,7 +16,7 @@ public class xmlTest {
 			doc.getDocumentElement().normalize();
 			System.out.println("Root element : "+doc.getDocumentElement().getNodeName());
 			NodeList nList = doc.getElementsByTagName("student");//tag name
-			System.out.println("---------------------------------------------");
+			System.out.println("---------------------------------------------glgl");
 			for(int temp=0;temp<nList.getLength();temp++) {
 				Node nNode = nList.item(temp);
 				if(nNode.getNodeType()==Node.ELEMENT_NODE) {
